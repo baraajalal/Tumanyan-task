@@ -1,16 +1,16 @@
-// src/app/layout.tsx
-
-import './globals.css';
+import "./globals.css";
 
 export const metadata = {
-  title: 'My App',
-  description: 'Example app using local IBMPlexSansArabic font',
+  title: "بودكاست",
+  description: "واجهة بحث وعرض البودكاستات",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar">
-      <body>{children}</body>
+      <body style={{ fontFamily: "IBMPlexSansArabic, sans-serif" }}>
+        {children}
+      </body>
     </html>
   );
 }
