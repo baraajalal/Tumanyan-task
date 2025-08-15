@@ -1,0 +1,86 @@
+/* src/app/globals.css */
+
+/* src/app/globals.css */
+
+/* استدعاء الخط محليًا */
+@font-face {
+  font-family: 'IBMPlexSansArabic';
+  src: url('/fonts/IBMPlexSansArabic-Regular.otf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSansArabic';
+  src: url('/fonts/IBMPlexSansArabic-Bold.otf') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* تعيين الخط للجسم كامل */
+body {
+  font-family: 'IBMPlexSansArabic', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Geist', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+img {
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
